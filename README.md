@@ -9,7 +9,7 @@
 
 ### lec03 스프링부트(어드민 페이지 만들기)
 - Intellij, Mysql 설치 (Mysql root 계정 비밀번호 잃어버려서 고치느라 애먹었다 ^_ㅠ)
-- REST API
+- REST API 실습
    - HTTP - GET Method
    - HTTP - POST Method
    - HTTP - PUT/PATCH Method
