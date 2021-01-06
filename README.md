@@ -18,12 +18,11 @@
    - JPA 연관관계 설정
 
 ### 프로젝트
-- ERD 설계
-- Table, Entity 생성
+- ERD 설계, Table, Entity 생성
 - Repository 생성, 테스트
 - 연관관계 설정
 - 필요한 Query Method 생성
-- JPA의 추가기능
+- JPA 추가기능
 - Lombok를 이용한 생성자 패턴
 - RestAPI와 CRUD
 - 코드 리팩토링
@@ -50,57 +49,39 @@ Iteration(반복주기) 개발로 2-cycle 개발 진행
      - @Where (for soft delete) => person의 delete
      - Data.sql => test에서 데이터 이용 
 
-2)SpringMVC : 주로 Controller
-- @GetMapping 
-- @PostMapping 
-- @PutMapping 
-- @PatchMapping 
-- @DeleteMapping
-- @PathVariable 
-- @RequestBody 
+2)SpringMVC : 
+ @GetMapping 
+ @PostMapping 
+ @PutMapping 
+ @PatchMapping 
+ @DeleteMapping
+ @PathVariable 
+ @RequestBody 
 
-3)Lombok : spring은 아니지만 데이터 관리를 유용하게
-- @Getter
-- @Setter
-- @ToString
-- @Constructor
-- @EqualsAndHashCode
-- @Data
+3)Lombok :
+ @Getter
+ @Setter
+ @ToString
+ @Constructor
+ @EqualsAndHashCode
+ @Data
 
-4)SpringTest
-- log 콘솔
+4)SpringTest : log 콘솔
 
-5)Java8
-- Stream
-- Filter
-- Map
+5)Java8 : Stream,Filter, Map
 
 ### 2-cycle
-1)SpringMVC
-- CustomJsonSerializer 
+1)SpringMVC : CustomJsonSerializer 
 
-2)SpringTest
-- MockMvc Test
-- Matcher
-- Junit5
+2)SpringTest : MockMvc Test, Matcher, Junit5
 
-3)MockTest
-- Mockito 
-- CustomArgumentMatcher 
+3)MockTest : Mockito, CustomArgumentMatcher 
 
-4)Exception Handling
-- CustomException
-- ExceptionHandler
-- GlobalExceptionHandler : @RestControllerAdvice
+4)Exception Handling : CustomException, ExceptionHandler, GlobalExceptionHandler (@RestControllerAdvice)
 
-5)Parameter Validator
-- @NotEmpty 
-- @NotBlank 
-- @Valid 
+5)Parameter Validator : @NotEmpty, @NotBlank, @Valid 
 
-6)Paging
-- Pageable
-- Page<T>
+6)Paging : Pageable, Page<T>
 
 
 ## lec05 스프링부트(레스토랑 예약 사이트)
